@@ -3,7 +3,7 @@
 describe('Funcionalidade: Produtos', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos')
     });
 
     it('Deve selecionar um produto da lista', () => {
@@ -13,10 +13,7 @@ describe('Funcionalidade: Produtos', () => {
             //.eq(2)
             .contains('Aero Daily Fitness Tee')
             .click()
-
             cy.get('#tab-title-description > a').should('contain', 'Descrição')
-        
-
         
     });
 });
