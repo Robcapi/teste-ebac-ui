@@ -1,0 +1,20 @@
+[
+    {
+        "nomeProduto": "Mach Street Sweatshirt",
+        "tamanho": "S",
+        "cor": "Blue",
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Hollister Backyard Sweatshirt",
+        "tamanho": "XL",
+        "cor": "Red",
+        "quantidade": 2
+    },
+      {
+        "nomeProduto": "Teton Pullover Hoodie",
+        "tamanho": "S",
+        "cor": "Purple",
+        "quantidade": 6
+    }
+]
